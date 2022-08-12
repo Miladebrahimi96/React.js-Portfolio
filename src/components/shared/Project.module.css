@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column !important;
     position: relative;
+    margin: 30px 0;
 }
 
 .folderContainer {
@@ -52,4 +53,16 @@
 
 .btnContainer a:hover {
     color: #1a73e8;
+}
+
+@media (max-width: 800px) {
+    .folderContainer img {
+        width: 250px;
+    }
+    .btnContainer {
+        width: 200px
+    }
+    .folderContainer p{
+        font-size: 1.2rem;
+    }
 }

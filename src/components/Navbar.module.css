@@ -6,9 +6,11 @@
     position: fixed;
     top: 0;
     width: 100%;
+    background: #fff;
     border-bottom: 1px solid silver;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 10px;
+    z-index: 5;
 }
 
 .container ul {

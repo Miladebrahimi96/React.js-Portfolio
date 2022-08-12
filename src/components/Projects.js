@@ -15,7 +15,7 @@ const Projects = () => {
             <Project
                 github="https://github.com/Miladebrahimi96/Digital-Currency-Exchange-Reactjs"
                 demo="https://github.com/Miladebrahimi96/Digital-Currency-Exchange-Reactjs"
-                title="Digital Currency Exchange"
+                title="Digital Currency"
             />
             <Project
                 github="https://github.com/Miladebrahimi96/React-form-SPA"

@@ -13,8 +13,10 @@ const Project = ({github, demo, title}) => {
                 <img src={folderIcon} alt="icon"/>
                 <p>{title}</p>
             </div>
-            <a href={github}>GitHub</a>
-            <a href={demo}>Live Demo</a>
+            <div className={styles.btnContainer}>
+                <a href={github}>GitHub</a>
+                <a href={demo}>Live Demo</a>
+            </div>
         </div>
     );
 };

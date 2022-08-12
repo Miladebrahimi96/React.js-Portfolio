@@ -13,7 +13,7 @@ const Hero = () => {
             <div className={styles.titleContainer}>
                 <h1>Milad Ebrahimi</h1>
                 <h2>Junior Front-End Developer</h2>
-                <Link to="">Go to Projects</Link>
+                <Link to="/projects">Go to Projects</Link>
             </div>
             <img src={heroImage} alt="Hero"/>
 

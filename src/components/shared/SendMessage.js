@@ -1,10 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const SendMessage = () => {
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+
+    const nameHandler = event => setName(event.target.value);
+    const emailHandler = event => setEmail(event.target.value);
+    
     return (
-        <div>
-            
-        </div>
+        <form>
+            <input type="text" value={name} onChange={nameHandler} required placeholder='Full Name'/>
+            <input type="email" value={email} onChange={emailHandler} required placeholder='Enter Your E-mail'/>
+            <textarea name='message' rows="7" placeholder="Enter Your Message" required/>
+            <button type='submit'>Send</button>
+        </form>
     );
 };
 

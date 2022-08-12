@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 
+//import styles
+import styles from "./SendMessage.module.css";
+
 const SendMessage = () => {
 
     const [name, setName] = useState("");
@@ -9,7 +12,7 @@ const SendMessage = () => {
     const emailHandler = event => setEmail(event.target.value);
     
     return (
-        <form>
+        <form className={styles.container}>
             <input type="text" value={name} onChange={nameHandler} required placeholder='Full Name'/>
             <input type="email" value={email} onChange={emailHandler} required placeholder='Enter Your E-mail'/>
             <textarea name='message' rows="7" placeholder="Enter Your Message" required/>

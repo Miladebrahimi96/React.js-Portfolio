@@ -30,6 +30,6 @@
 
 @media (max-width: 550px) {
     .container {
-        font-size: smaller;
+        width: 90%;
     }
 }

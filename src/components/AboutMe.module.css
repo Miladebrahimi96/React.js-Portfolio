@@ -30,7 +30,10 @@
     }
 }
 @media (max-width: 550px) {
-    .container{
-        padding: 0;
+    .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

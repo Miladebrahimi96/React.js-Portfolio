@@ -39,11 +39,15 @@
 
 @media (max-width: 550px) {
     .lists {
-        width: 80%;
+        width: 90%;
         font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .container{
+        margin: 0;
         padding: 0;
         align-items: center;
+        width: 90%;
     }
 }

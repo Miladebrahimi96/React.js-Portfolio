@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route} from "react-router-dom";
+import {Routes, Route, Navigate} from "react-router-dom";
 import AboutMe from './components/AboutMe';
 import ContactInfo from './components/ContactInfo';
 import Home from './components/Home';
@@ -15,6 +15,7 @@ const App = () => {
         <Route path='/projects' element={<Projects />} />
         <Route path='/Contactinfo' element={<ContactInfo />} />
         <Route path='/aboutme' element={<AboutMe />} />
+        <Route path='/*' element={<Navigate to="/" />} />
       </Routes>
     </>
   );

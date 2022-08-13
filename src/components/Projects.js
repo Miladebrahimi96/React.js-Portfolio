@@ -13,12 +13,12 @@ const Projects = () => {
             <div className={styles.container}>
                 <Project
                     github="https://github.com/Miladebrahimi96/Weather-App-React-ReactRoutes"
-                    demo="https://github.com/Miladebrahimi96/Weather-App-React-ReactRoutes"
+                    demo="https://weather-app-react-react-routes.vercel.app/"
                     title="Weather Forecast"
                 />
                 <Project
                     github="https://github.com/Miladebrahimi96/Digital-Currency-Exchange-Reactjs"
-                    demo="https://github.com/Miladebrahimi96/Digital-Currency-Exchange-Reactjs"
+                    demo="https://digital-currency-exchange-reactjs.vercel.app/"
                     title="Digital Currency"
                 />
                 <Project

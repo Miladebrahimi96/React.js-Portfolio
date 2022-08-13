@@ -12,6 +12,11 @@ const Projects = () => {
             <h2 className={styles.title}>Explore Projetcs Here</h2>
             <div className={styles.container}>
                 <Project
+                    github="https://github.com/Miladebrahimi96/Shopping-Cart"
+                    demo="https://shopping-cart-one-sage.vercel.app/products"
+                    title="Shopping Cart"
+                />
+                <Project
                     github="https://github.com/Miladebrahimi96/Weather-App-React-ReactRoutes"
                     demo="https://weather-app-react-react-routes.vercel.app/"
                     title="Weather Forecast"

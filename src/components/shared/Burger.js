@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import OutsideClickHandler from 'react-outside-click-handler';
+
 import Navbar from '../Navbar';
 
 //styles
@@ -39,19 +41,21 @@ const Div = styled.div `
     }
 `
 
+
+
 const Burger = () => {
 
     const [menu, setMenu] = useState(false);
 
     return (
-        <>
+        <OutsideClickHandler onOutsideClick={() => setMenu(false)}>
             <Div menu={menu} onClick={() => setMenu(menu => !menu)}>
                 <div></div>
                 <div></div>
                 <div></div>
             </Div>
             <Navbar menu={menu}/>
-        </>
+        </OutsideClickHandler>
     );
 }
 

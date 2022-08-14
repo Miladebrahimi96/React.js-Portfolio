@@ -14,8 +14,8 @@ const Project = ({github, demo, title}) => {
                 <p>{title}</p>
             </div>
             <div className={styles.btnContainer}>
-                <a href={github}>GitHub</a>
-                <a href={demo}>Live Demo</a>
+                <a target="_blank" rel='noreferrer' href={github}>GitHub</a>
+                <a target="_blank" rel='noreferrer' href={demo}>Live Demo</a>
             </div>
         </div>
     );
